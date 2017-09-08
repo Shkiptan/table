@@ -1,0 +1,49 @@
+
+.table_form {
+	display: inline-block;
+	border: 1px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px grey;
+	padding: 7px;
+	margin: 50px auto;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+table {
+	border-collapse: collapse;
+}
+th {
+	padding: 15px;
+	border-bottom: 2px solid grey;
+	text-align: left;
+}
+td {
+	padding: 15px;
+	border-bottom: 2px solid grey;	
+}
+.first {
+	color: red;
+}
+
+.sum, .sum_all {
+	text-align: right; 
+	margin-bottom: -7px;
+}
+.sum_all  {
+	color: grey;
+}
+.bucket {
+	text-align: center;
+} 
+a {
+	font-family: sans-serif;
+	font-style: italic;
+	color: #DC4E45;
+	font-stretch: condensed;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: bold;
+}
